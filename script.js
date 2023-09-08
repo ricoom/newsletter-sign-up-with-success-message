@@ -14,6 +14,7 @@ submit.addEventListener('click',(e)=>{
 
     }else{
        err.innerText=input.validationMessage;
+        
     }
 
 })
@@ -22,6 +23,7 @@ close.addEventListener('click',(e)=>{
     e.preventDefault();
     
         msg.style.display='none';
+        input.value=""
 
    
 })
